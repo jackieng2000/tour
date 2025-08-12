@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Title from "./Title"
 const Services = () => {
   return (
     <main className="services" id="services">
-      <h2>our <span className="text-secondary">services</span></h2>
+       <Title title = "Our" subtitle = "Services" />
+      {/* <h2>our <span className="text-secondary">services</span></h2> */}
       <div className="services-content">
         <div className="service-title">
           <i className="fa-solid fa-wallet"></i>

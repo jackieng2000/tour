@@ -446,10 +446,13 @@ span {
   gap: 2rem;
   align-items: start;
   justify-content: center;
+  border: 2px solid blue;
 }
 
 .card {
   box-shadow: var(--dark-shadow);
+  /* height: 600px;                     */
+  border: 2px solid red;
 }
 .card:hover {
   transform: scale(1.03);

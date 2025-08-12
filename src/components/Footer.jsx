@@ -14,7 +14,7 @@ const Footer = () => {
         
         <SocialLink />
       </div>
-      <p>Copyright &copy; <span id="date"></span> All Rights Reserved</p>
+      <p>Copyright &copy; <span id="date"> {new Date().getFullYear()} </span> All Rights Reserved</p>
     </footer>  
   )
 }
